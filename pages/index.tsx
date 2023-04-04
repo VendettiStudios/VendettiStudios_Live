@@ -108,10 +108,25 @@ function CountdownTimer() {
 
     return (
         <div className={styles.countdown}>
-            {days} Days, {hours} Hours, {minutes} Minutes, {seconds} Seconds
+          <div className={styles.timeUnit}>
+            <span>{String(days).padStart(2, '0')}</span>
+            <span>Days</span>
+          </div>
+          <div className={styles.timeUnit}>
+            <span>{String(hours).padStart(2, '0')}</span>
+            <span>Hours</span>
+          </div>
+          <div className={styles.timeUnit}>
+            <span>{String(minutes).padStart(2, '0')}</span>
+            <span>Minutes</span>
+          </div>
+          <div className={styles.timeUnit}>
+            <span>{String(seconds).padStart(2, '0')}</span>
+            <span>Seconds</span>
+          </div>
         </div>
-    )
-}
+      );
+    }
 export default function Home() {
     return (
       <>
