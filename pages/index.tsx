@@ -84,16 +84,23 @@ function useInterval(callback: () => void, delay: number | null) {
         }
     }, [delay])
 }
-
 function CountdownTimer() {
-    const [timeLeft, setTimeLeft] = useState(60 * 24 * 60 * 60)
-
+    const endDate = new Date('2023-06-03T00:00:00'); // Set a fixed end date
+    const [timeLeft, setTimeLeft] = useState<number | null>(null);
+  
+    useEffect(() => {
+      setTimeLeft(Math.floor((endDate.getTime() - new Date().getTime()) / 1000));
+    }, []);
+  
     useInterval(() => {
-        if (timeLeft > 0) {
-            setTimeLeft(timeLeft - 1)
-        }
-    }, 1000)
-
+      if (timeLeft !== null && timeLeft > 0) {
+        setTimeLeft(timeLeft - 1);
+      }
+    }, 1000);
+  
+    if (timeLeft === null) {
+      return <div className={styles.countdown}>Loading...</div>; // Render a placeholder while waiting for client-side hydration
+    }
     const days = Math.floor(timeLeft / (24 * 60 * 60))
     const hours = Math.floor((timeLeft % (24 * 60 * 60)) / (60 * 60))
     const minutes = Math.floor((timeLeft % (60 * 60)) / 60)
