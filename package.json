@@ -9,14 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.62.2",
+    "@react-three/flex": "^1.0.1",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "gltfjsx": "^6.1.4",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.151.3",
     "typescript": "5.0.3"
+  },
+  "devDependencies": {
+    "@types/three": "^0.150.1"
   }
 }
