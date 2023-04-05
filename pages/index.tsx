@@ -134,6 +134,7 @@ export default function Home() {
         <main className={styles.main}>
         <div className={styles.container}>
           <SpinningLogo />
+          <h1>Coming Soon!</h1>
           <CountdownTimer />
         </div>
       </main>
