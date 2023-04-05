@@ -7,7 +7,7 @@ import { Suspense, useRef, useEffect, useState } from 'react'
 import styles from '@/styles/Home.module.css'
 
 function Model() {
-    const gltf = useGLTF('/VS3DLOGO.gltf', true)
+    const gltf = useGLTF('/VS3DLOGO2.gltf', true)
     const group = useRef<Group>(null)
     const pivot = useRef<Object3D>(null)
 
