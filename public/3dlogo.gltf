@@ -1,0 +1,875 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 381cf499e4c74d2ada5dde7ebe90541f51590aae",
+        "version": "2.0",
+        "extensions": {
+            "KHR_xmp": {
+                "packet": 0
+            }
+        }
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1302,
+            "type": "VEC3",
+            "max": [
+                101.5,
+                101.5,
+                16.600000381469728
+            ],
+            "min": [
+                -101.5,
+                -101.5,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1302,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 1302,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 6912,
+            "type": "SCALAR",
+            "max": [
+                1301.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 2778,
+            "type": "VEC3",
+            "max": [
+                37.75,
+                2.078838022337155e-15,
+                33.95000076293945
+            ],
+            "min": [
+                1.0,
+                -12.0,
+                0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 2778,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 2778,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 4152,
+            "type": "SCALAR",
+            "max": [
+                2777.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 2054,
+            "type": "VEC3",
+            "max": [
+                24.350000381469728,
+                2.143131846440256e-15,
+                35.0
+            ],
+            "min": [
+                1.0,
+                -12.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 2054,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 2054,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 3093,
+            "type": "SCALAR",
+            "max": [
+                2053.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 1440,
+            "type": "VEC3",
+            "max": [
+                191.55999755859376,
+                161.52999877929688,
+                50.20000076293945
+            ],
+            "min": [
+                -191.55999755859376,
+                -130.1199951171875,
+                0.19999998807907105
+            ]
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 1440,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5126,
+            "count": 1440,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5125,
+            "count": 2868,
+            "type": "SCALAR",
+            "max": [
+                1439.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 3600,
+            "type": "VEC3",
+            "max": [
+                121.15999603271485,
+                165.74368286132813,
+                350.1999816894531
+            ],
+            "min": [
+                -82.71077728271485,
+                -160.23126220703126,
+                0.19999998807907105
+            ]
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5126,
+            "count": 3600,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 3600,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5125,
+            "count": 7188,
+            "type": "SCALAR",
+            "max": [
+                3599.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5126,
+            "count": 7200,
+            "type": "VEC3",
+            "max": [
+                121.66552734375,
+                166.24371337890626,
+                350.1999816894531
+            ],
+            "min": [
+                -83.21077728271485,
+                -160.73126220703126,
+                0.19999998807907105
+            ]
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 7200,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 7200,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 14400,
+            "type": "SCALAR",
+            "max": [
+                7199.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 15624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 15624,
+            "byteLength": 15624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 31248,
+            "byteLength": 10416,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 41664,
+            "byteLength": 27648,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 69312,
+            "byteLength": 33336,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 102648,
+            "byteLength": 33336,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 135984,
+            "byteLength": 22224,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 158208,
+            "byteLength": 16608,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 174816,
+            "byteLength": 24648,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 199464,
+            "byteLength": 24648,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 224112,
+            "byteLength": 16432,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 240544,
+            "byteLength": 12372,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 252916,
+            "byteLength": 17280,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 270196,
+            "byteLength": 17280,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 287476,
+            "byteLength": 11520,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 298996,
+            "byteLength": 11472,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 310468,
+            "byteLength": 43200,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 353668,
+            "byteLength": 43200,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 396868,
+            "byteLength": 28800,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 425668,
+            "byteLength": 28752,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 454420,
+            "byteLength": 86400,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 540820,
+            "byteLength": 86400,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 627220,
+            "byteLength": 57600,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 684820,
+            "byteLength": 57600,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 742420,
+            "uri": "VS3dLogo-dimension_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6078248023986816,
+                "zfar": 2.0,
+                "aspectRatio": 1.320715069770813
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "name": "Phantom 1",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.843369722366333,
+                    0.9322768449783325,
+                    0.97430020570755,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "name": "Happy Days",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8831796646118164,
+                    0.10363409668207169,
+                    0.10114516317844391,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "1",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            },
+            "name": "4",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Coin",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "3D V - V",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "3D S - S",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 10,
+                        "NORMAL": 9,
+                        "POSITION": 8
+                    },
+                    "indices": 11,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "Path",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 14,
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 15,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "Path 3",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 16,
+                        "NORMAL": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "Path - Stroke 2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 20,
+                        "NORMAL": 21,
+                        "TEXCOORD_0": 22
+                    },
+                    "indices": 23,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "Path 3",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 16,
+                        "NORMAL": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "Path - Stroke 2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 20,
+                        "NORMAL": 21,
+                        "TEXCOORD_0": 22
+                    },
+                    "indices": 23,
+                    "material": 3
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.181825190782547,
+                0.3888537883758545,
+                0.2532559931278229
+            ],
+            "rotation": [
+                -0.7041431665420532,
+                -0.014031244441866875,
+                -0.013919766992330552,
+                0.7097828984260559
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0000001192092896
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                -0.05085386335849762,
+                0.002097704913467169,
+                0.05287959799170494
+            ],
+            "scale": [
+                0.9565929770469666,
+                0.9565929770469666,
+                0.9565929770469666
+            ],
+            "name": "Project Name"
+        },
+        {
+            "children": [
+                3,
+                4,
+                5,
+                6,
+                8,
+                11
+            ],
+            "translation": [
+                0.24810375273227693,
+                -0.0011726492084562779,
+                0.30208954215049746
+            ],
+            "rotation": [
+                0.9999960064888,
+                -2.014278593848086e-17,
+                -7.105398981997269e-15,
+                -0.0028349070344120266
+            ],
+            "scale": [
+                0.0010000000474974514,
+                0.001000000280328095,
+                0.001000000280328095
+            ],
+            "name": "VS LOGO"
+        },
+        {
+            "translation": [
+                13.449600219726563,
+                9.303752899169922,
+                90.11259460449219
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0127274990081788,
+                1.0127273797988892,
+                1.0127273797988892
+            ],
+            "mesh": 0,
+            "name": "Coin"
+        },
+        {
+            "translation": [
+                -38.517189025878909,
+                16.488861083984376,
+                73.6290283203125
+            ],
+            "scale": [
+                2.6237382888793947,
+                2.6237382888793947,
+                2.6237382888793947
+            ],
+            "mesh": 1,
+            "name": "3D V - V"
+        },
+        {
+            "translation": [
+                -19.49629783630371,
+                16.50357437133789,
+                9.046371459960938
+            ],
+            "scale": [
+                2.6267971992492677,
+                2.6267971992492677,
+                2.6267971992492677
+            ],
+            "mesh": 2,
+            "name": "3D S - S"
+        },
+        {
+            "children": [
+                7
+            ],
+            "name": "Untitled-2 2"
+        },
+        {
+            "translation": [
+                13.822250366210938,
+                16.291954040527345,
+                107.69364929199219
+            ],
+            "rotation": [
+                0.70509934425354,
+                0.0,
+                0.0,
+                0.7091085314750671
+            ],
+            "scale": [
+                0.543782114982605,
+                0.543782114982605,
+                0.543782114982605
+            ],
+            "mesh": 3,
+            "name": "Path"
+        },
+        {
+            "children": [
+                9,
+                10
+            ],
+            "translation": [
+                -2.392206907272339,
+                0.000001220703097715159,
+                0.0
+            ],
+            "rotation": [
+                2.328305881427184e-10,
+                -3.532512790041433e-15,
+                3.5727989475622689e-15,
+                1.0
+            ],
+            "scale": [
+                1.0000001192092896,
+                1.000000238418579,
+                1.000000238418579
+            ],
+            "name": "Moon left 1"
+        },
+        {
+            "translation": [
+                -45.48196792602539,
+                18.37643814086914,
+                93.85621643066406
+            ],
+            "rotation": [
+                0.7060373425483704,
+                0.0,
+                0.0,
+                0.7081745862960815
+            ],
+            "scale": [
+                0.0953378975391388,
+                0.0953378900885582,
+                0.0953378900885582
+            ],
+            "mesh": 4,
+            "name": "Path 3"
+        },
+        {
+            "translation": [
+                -45.48196792602539,
+                18.28110122680664,
+                93.85651397705078
+            ],
+            "rotation": [
+                0.7060373425483704,
+                0.0,
+                0.0,
+                0.7081745862960815
+            ],
+            "scale": [
+                0.0953378975391388,
+                0.0953378900885582,
+                0.0953378900885582
+            ],
+            "mesh": 5,
+            "name": "Path - Stroke 2"
+        },
+        {
+            "children": [
+                12,
+                13
+            ],
+            "translation": [
+                30.57027244567871,
+                -0.000006103515261202119,
+                188.33958435058595
+            ],
+            "rotation": [
+                -8.742280499518529e-8,
+                1.0,
+                1.1175859349066286e-8,
+                -4.371140605030632e-8
+            ],
+            "scale": [
+                1.0,
+                1.0000007152557374,
+                1.0000005960464478
+            ],
+            "name": "Moon left 1"
+        },
+        {
+            "translation": [
+                -45.48196792602539,
+                18.37643814086914,
+                93.85621643066406
+            ],
+            "rotation": [
+                0.7060373425483704,
+                0.0,
+                0.0,
+                0.7081745862960815
+            ],
+            "scale": [
+                0.0953378975391388,
+                0.0953378900885582,
+                0.0953378900885582
+            ],
+            "mesh": 6,
+            "name": "Path 3"
+        },
+        {
+            "translation": [
+                -45.48196792602539,
+                18.28110122680664,
+                93.85651397705078
+            ],
+            "rotation": [
+                0.7060373425483704,
+                0.0,
+                0.0,
+                0.7081745862960815
+            ],
+            "scale": [
+                0.0953378975391388,
+                0.0953378900885582,
+                0.0953378900885582
+            ],
+            "mesh": 7,
+            "name": "Path - Stroke 2"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp": {
+            "@context": {
+                "dc": "http://purl.org/dc/elements/1.1/"
+            },
+            "packets": [
+                {
+                    "dc:date": "2023-04-04T00:30:42.627-07:00",
+                    "dc:format": "model/gltf+json",
+                    "dc:title": "VS3dLogo-dimension.dn",
+                    "xmp:CreatorTool": "Adobe Dimension"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp"
+    ]
+}
