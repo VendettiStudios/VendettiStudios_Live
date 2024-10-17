@@ -130,7 +130,7 @@ export default function Home() {
     return (
       <>
         {/* ... Head component ... */}
-        <main className={styles.main}>
+        <main className={styles.main}>.
         <div className={styles.container}>
           <div className={styles.spinningLogo}><SpinningLogo  /></div>
           <h1 className={styles.comingSoon}>Coming Soon!</h1>
