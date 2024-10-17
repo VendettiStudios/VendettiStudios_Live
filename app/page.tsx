@@ -83,49 +83,49 @@ function useInterval(callback: () => void, delay: number | null) {
         }
     }, [delay])
 }
-function CountdownTimer() {
-    const endDate = new Date('2023-06-03T00:00:00'); // Set a fixed end date
-    const [timeLeft, setTimeLeft] = useState<number | null>(null);
+// function CountdownTimer() {
+//     const endDate = new Date('2023-06-03T00:00:00'); // Set a fixed end date
+//     const [timeLeft, setTimeLeft] = useState<number | null>(null);
   
-    useEffect(() => {
-      setTimeLeft(Math.floor((endDate.getTime() - new Date().getTime()) / 1000));
-    }, []);
+//     useEffect(() => {
+//       setTimeLeft(Math.floor((endDate.getTime() - new Date().getTime()) / 1000));
+//     }, []);
   
-    useInterval(() => {
-      if (timeLeft !== null && timeLeft > 0) {
-        setTimeLeft(timeLeft - 1);
-      }
-    }, 1000);
+    // useInterval(() => {
+    //   if (timeLeft !== null && timeLeft > 0) {
+    //     setTimeLeft(timeLeft - 1);
+    //   }
+    // }, 1000);
   
-    if (timeLeft === null) {
-      return <div className={styles.countdown}>Loading...</div>; // Render a placeholder while waiting for client-side hydration
-    }
-    const days = Math.floor(timeLeft / (24 * 60 * 60))
-    const hours = Math.floor((timeLeft % (24 * 60 * 60)) / (60 * 60))
-    const minutes = Math.floor((timeLeft % (60 * 60)) / 60)
-    const seconds = timeLeft % 60
+    // if (timeLeft === null) {
+    //   return <div className={styles.countdown}>Loading...</div>; // Render a placeholder while waiting for client-side hydration
+    // }
+    // const days = Math.floor(timeLeft / (24 * 60 * 60))
+    // const hours = Math.floor((timeLeft % (24 * 60 * 60)) / (60 * 60))
+    // const minutes = Math.floor((timeLeft % (60 * 60)) / 60)
+    // const seconds = timeLeft % 60
 
-    return (
-        <div className={styles.countdown}>
-          <div className={styles.timeUnit}>
-            <span>{String(days).padStart(2, '0')}</span>
-            <span>Days</span>
-          </div>
-          <div className={styles.timeUnit}>
-            <span>{String(hours).padStart(2, '0')}</span>
-            <span>Hours</span>
-          </div>
-          <div className={styles.timeUnit}>
-            <span>{String(minutes).padStart(2, '0')}</span>
-            <span>Minutes</span>
-          </div>
-          <div className={styles.timeUnit}>
-            <span>{String(seconds).padStart(2, '0')}</span>
-            <span>Seconds</span>
-          </div>
-        </div>
-      );
-    }
+    // return (
+    //     <div className={styles.countdown}>
+    //       <div className={styles.timeUnit}>
+    //         <span>{String(days).padStart(2, '0')}</span>
+    //         <span>Days</span>
+    //       </div>
+    //       <div className={styles.timeUnit}>
+    //         <span>{String(hours).padStart(2, '0')}</span>
+    //         <span>Hours</span>
+    //       </div>
+    //       <div className={styles.timeUnit}>
+    //         <span>{String(minutes).padStart(2, '0')}</span>
+    //         <span>Minutes</span>
+    //       </div>
+    //       <div className={styles.timeUnit}>
+    //         <span>{String(seconds).padStart(2, '0')}</span>
+    //         <span>Seconds</span>
+    //       </div>
+    //     </div>
+    //   );
+    // }
 export default function Home() {
     return (
       <>
